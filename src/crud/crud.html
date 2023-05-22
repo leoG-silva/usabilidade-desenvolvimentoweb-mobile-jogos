@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="mainCRUD.css">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="records.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="modal.conent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap" rel="stylesheet">    <title>CRUD</title>
+</head>
+
+<body>
+    <nav class="menu-horizontal">
+        <ul>
+          <li><a href="../login.html">Sair</a></li>
+        </ul>
+      </nav>
+    <main>
+        <button type="button" class="btn cadastro">Cadastro PET</button>
+        <table class="records">
+            <thead class="cabecalhoT">
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Editar/Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Testes</td>
+                    <td>testes@gmail.com</td>
+                    <td>11 954767499</td>
+                    <td>Cidade testes</td>
+                    <td>
+                        <button type="button" class="btn editar">Editar</button>
+                        <button type="button" class="btn excluir">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Testes2</td>
+                    <td>testes2@gmail.com</td>
+                    <td>11 954767499</td>
+                    <td>Cidade testes2</td>
+                    <td>
+                        <button type="button" class="btn editar">Editar</button>
+                        <button type="button" class="btn excluir">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Testes3</td>
+                    <td>testes3@gmail.com</td>
+                    <td>11 954767499</td>
+                    <td>Cidade testes3</td>
+                    <td>
+                        <button type="button" class="btn editar">Editar</button>
+                        <button type="button" class="btn excluir">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div clas="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close">&#10006</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome">
+                    <input type="email" class="modal-field" placeholder="email">
+                    <input type="telefone" class="modal-field" placeholder="tel">
+                    <input type="endereco" class="modal-field" placeholder="endereco">
+                </form>
+                <footer class="modal-footer">
+                    <button class="btn editar">Salvar</button>
+                    <button class="btn excluir">Cancelar</button>
+
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>© Copyright 2023</p>
+      </footer>
+
+</body>
+</html>
