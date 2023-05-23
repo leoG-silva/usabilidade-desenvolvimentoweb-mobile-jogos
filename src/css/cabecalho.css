@@ -1,0 +1,28 @@
+.menu-horizontal {
+    background-color: #58af9b;
+}
+
+.menu-horizontal ul{
+    max-width: 80%;
+    list-style: none;
+    padding: 0;
+    background-color: #58af9b;
+}
+
+.menu-horizontal ul li {
+    display: inline;
+}
+
+.menu-horizontal ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-horizontal ul li a:hover {
+    transition: 0.5s;
+    background-color: #004e27;
+    color: white;
+    opacity: 90%;
+}

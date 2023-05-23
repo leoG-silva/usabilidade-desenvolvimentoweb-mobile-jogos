@@ -7,35 +7,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.menu-horizontal {
-    background-color: #58af9b;
-}
-
-.menu-horizontal ul{
-    max-width: 80%;
-    list-style: none;
-    padding: 0;
-    background-color: #58af9b;
-}
-
-.menu-horizontal ul li {
-    display: inline;
-}
-
-.menu-horizontal ul li a{
-    color: #fff;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.menu-horizontal ul li a:hover {
-    transition: 0.5s;
-    background-color: #004e27;
-    color: white;
-    opacity: 90%;
-}
-
 .resumo {
     padding: 120px;
     margin: 0px auto;
@@ -80,12 +51,4 @@
 .empresas img:hover {
     transition: 0.5s;
     opacity: 100%;
-}
-
-.rodape {
-    padding: 20px;
-    margin: 0px auto;
-    background: DarkSlateBlue;
-    color: floralwhite;
-    text-align: center;
 }
