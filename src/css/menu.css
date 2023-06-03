@@ -8,15 +8,15 @@
 }
 
 .resumo {
-    padding: 120px;
-    margin: 100px auto;
+    padding: 90px;
+    margin: 70px auto;
     background: white(117, 117, 117, 0.637);
     color: black;
     text-align: center;
 }
 
 .info {
-    padding: 70px;
+    padding: 50px;
     background: #58af9b;
     color: white;
     text-align: center;

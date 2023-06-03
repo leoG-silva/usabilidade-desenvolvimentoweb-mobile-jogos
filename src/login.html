@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Home- Login</title>
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="./css/login.css"/>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -17,7 +17,7 @@
   <body>
     <nav class="menu-horizontal">
       <ul>
-        <li><a href="menu.html">Home</a></li>
+        <li><a href="/" >Home</a></li>
       </ul>
     </nav>
 
@@ -26,23 +26,23 @@
         <div class="column">
           <h2 class="title">Acesse seu perfil</h2>
           <p class="description">use o seu e-mail cadastrado:</p>
-          <form class="form">
-            <label class="label-input" for="">
+          <form class="form" action="/crud" method="POST">
+            <label class="label-input" for="email" id="email">
               <i class="far fa-envelope icon-modify"></i>
-              <input type="email" placeholder="E-mail ou Usuário" />
+              <input type="email" placeholder="E-mail" />
             </label>
 
-            <label class="label-input" for="">
+            <label class="label-input" for="senha" id="senha">
               <i class="fas fa-lock icon-modify"></i>
               <input type="password" placeholder="Senha" />
             </label>
 
-            <button
-              class="btn"
-              onClick=""
+            <input
+              class="acessar"
+              type="submit"
+              value="acessar"
             >
-              acessar
-            </button>
+            </input>
           </form>
         </div>
       </div>  

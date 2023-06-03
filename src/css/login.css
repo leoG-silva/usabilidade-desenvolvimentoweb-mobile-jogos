@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 105vh;
     background-color: #ecf0f1;
 }
 
@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .column {
@@ -52,7 +53,7 @@ body {
     color: #fff;
 }
 
-.btn {
+.acessar {
     border-radius: 15px;
     text-transform: uppercase;
     color: black;
@@ -69,7 +70,7 @@ body {
     transition: background-color .5s;
 }
 
-.btn:hover {
+.acessar:hover {
     background-color: #58af9b;
     border: 1px solid #fff;
     color: #fff;
