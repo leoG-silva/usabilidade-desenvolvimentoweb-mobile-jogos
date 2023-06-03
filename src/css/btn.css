@@ -9,35 +9,55 @@
     transition: box-shadow .6s ease;
 }
 
-.btn.cadastro{
-    background-color: #1FB6FF;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.btn-cadastro {
+    background-color: #58af9b;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
     cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    transition: background-color .5s;
 }
-.btn.editar{
+
+.btn-editar {
     background-color: #1fff3d;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    padding: 10px 30px;
     cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    transition: background-color .5s;
 }
-.btn.excluir{
+
+.btn-excluir {
     background-color: #ff1f1f;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    padding: 10px 30px;
     cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    transition: background-color .5s;
 }
 
 .btn:hover{ 

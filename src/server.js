@@ -30,27 +30,27 @@ app.get('/login', function (req, res) {
     res.sendFile(__dirname + "/login.html")
 });
 
-app.post("/crud", async (req, res) => {
+app.post("/crud", function (req, res) {
     db.serialize(() => {
 
         var email = req.body.email;
         var senha = req.body.senha;
         db.each(`SELECT email, senha FROM Cliente WHERE email = '?' and senha = '?'`),
-        [email, senha],
+            [email, senha],
 
-            function (err) {
+            //verificar essa função
+            function (err, row) {
                 if (err) {
                     res.send("Erro ao encontrar email");
                     return console.error(err.message);
                 }
-            }
 
-        //if incorreto, devemos ajustar
-        if (req.body.email == email && req.body.senha == senha) {
+                if (row == 0) {
+                    console.log("Usuario ou senha inválida")
+                } else {
+                    console.log("Usuario logado");
+                }
+            }
             res.sendFile(__dirname + '/crud.html')
-            console.log("Usuario logado");
-        } else {
-            console.log("Usuario ou senha inválida")
-        }
-    });
+        });
 });
