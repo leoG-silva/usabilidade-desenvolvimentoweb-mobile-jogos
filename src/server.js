@@ -54,7 +54,7 @@ const server = http.createServer((req, res) => {
         );
     }
 });
-;
+
 
 server.listen(3333, () => {
     console.log('Servidor em execução na porta 3333');
